@@ -17,7 +17,6 @@ typedef struct peixe {
 } peixe_t;
 
 // Cliente 
-
 typedef struct cliente {
     uint8_t id;
     string nome;
@@ -26,7 +25,6 @@ typedef struct cliente {
 } cliente_t;
 
 // Vendas
-
 typedef struct venda {
     uint8_t id;
     uint8_t id_cliente;
@@ -43,7 +41,6 @@ typedef struct no_peixe {
 } no_peixe_t;
 
 // Nó cliente 
-
 typedef struct no_cliente {
     cliente_t cliente;
     struct no_cliente *prox;
